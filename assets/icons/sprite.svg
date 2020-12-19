@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<symbol id="chevron-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+			stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+			<polyline points="9 18 15 12 9 6" />
+		</symbol>
+		<symbol id="chevrons-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+			stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+			<polyline points="17 11 12 6 7 11" />
+			<polyline points="17 18 12 13 7 18" />
+		</symbol>
+		<symbol id="arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+			stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right">
+			<line x1="5" y1="12" x2="19" y2="12" />
+			<polyline points="12 5 19 12 12 19" />
+		</symbol>
+		<symbol id="home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+			stroke-linejoin="round" class="feather feather-home">
+			<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+			<polyline points="9 22 9 12 15 12 15 22" />
+		</symbol>
+		<symbol id="no" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+			stroke-linejoin="round" class="feather feather-slash">
+			<circle cx="12" cy="12" r="10" />
+			<line x1="4.93" y1="4.93" x2="19.07" y2="19.07" />
+		</symbol>
+		<symbol id="code" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+			stroke-linejoin="round" class="feather feather-code">
+			<polyline points="16 18 22 12 16 6" />
+			<polyline points="8 6 2 12 8 18" />
+		</symbol>
+
+		<symbol id="menu" viewBox="0 0 24 24">
+			<path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" /></symbol>
+	</defs>
+</svg>
