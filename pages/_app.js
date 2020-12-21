@@ -1,6 +1,7 @@
 import Head from "next/head"
 import Nav from "parts/Nav";
 import Footer from "parts/Footer";
+import "styles/scss/elegant.scss";
 
 function MyApp({ Component, pageProps }) {
   const { navBackground = 0 } = pageProps;
@@ -14,7 +15,7 @@ function MyApp({ Component, pageProps }) {
         <title>{process.env.NEXT_PUBLIC_NAME}</title>
         <meta
           name="description"
-          content="Cursos de programación en línea y en vivo"
+          content={process.env.NEXT_PUBLIC_SITE_DESCRIPTION}
         />
         <meta name="author" content={process.env.NEXT_PUBLIC_NAME} />
       </Head>

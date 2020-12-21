@@ -8,10 +8,10 @@ export default function Header() {
           <div className="row align-items-center">
             <div className="col-lg-6" data-aos="fade-up">
               <h1 className="page-header-title">
-                ¿Quieres saber programar al nivel de las empresas grandes?
+                ¿Quieres aprender a programar y ganar dinero?
               </h1>
               <p className="page-header-text mb-4">
-                Necesitaras un curso que valla directo al punto, a lo que realmente necesitas aprender.
+                Necesitas de un curso que vaya directo al punto, a lo que realmente necesitas aprender.
               </p>
               <a
                 className="btn btn-teal font-weight-500 mr-2"

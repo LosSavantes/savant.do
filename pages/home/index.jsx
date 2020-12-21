@@ -27,7 +27,7 @@ export default function Home() {
               <div className="mb-5">
                 <h2>¿Cuánto dinero gana un programador?</h2>
                 <p className="lead">
-                  En Republica Dominicana, se estima que el salario promedio de
+                  En República Dominicana, se estima que el salario promedio de
                   un desarrollador de software <br />
                   es de RD$50,000 - RD$150,000 mensual.
                 </p>
@@ -74,20 +74,20 @@ export default function Home() {
             </div>
             <div className="col-lg-4 mb-5 mb-lg-0">
               <div className="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4">
-                <Icon name="code" />
+                <Icon name="video" />
               </div>
               <h3>En vivo</h3>
               <p className="mb-0">
-                Podrás interactuar directamente con tu instructor en el momento.
+                Podrás hacer preguntas en el momento, y tendrás la clase grabada al final
               </p>
             </div>
             <div className="col-lg-4">
               <div className="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4">
-                <Icon name="no" />
+                <Icon name="write" />
               </div>
-              <h3>Seguimiento individual</h3>
+              <h3>Más práctica que teoría</h3>
               <p className="mb-0">
-                Si te quedas atrás, ahi estaremos para ayudarte a avanzar.
+                Aprenderás haciendo ejercicios solo con la teoría necesaria
               </p>
             </div>
           </div>
@@ -127,15 +127,15 @@ export default function Home() {
               <div className="mb-5">
                 <h2>Curso de Programacion Desde Cero</h2>
                 <p className="lead">
-                  Este curso te preparará sólidamente en el área laboral de desarrollo de
-                  software. Estas son algunas cosas que incluye:
+                  Este curso te preparará sólidamente en el área laboral de
+                  desarrollo de software. Estas son algunas cosas que incluye:
                 </p>
               </div>
               <div className="row">
                 <div className="col-md-6 mb-4">
                   <h6>Gremio</h6>
                   <p className="mb-1 small">
-                    Nuestra comunidad exclusiva donde serás miembro permanente.
+                    Únete a nuestra comunidad y recibe contenido exclusivo.
                   </p>
                   <a
                     className="small text-arrow-icon"
@@ -145,9 +145,10 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="col-md-6 mb-4">
-                  <h6>Desafíos</h6>
+                  <h6>Desafíos &amp; Niveles</h6>
                   <p className="mb-1 small ">
-                    Te serviran para subir de nivel en el gremio.
+                    Supera nuestros desafíos y sube de nivel para obtener
+                    privilegios dentro del gremio.
                   </p>
                   <a
                     className="small text-arrow-icon"
@@ -159,21 +160,9 @@ export default function Home() {
               </div>
               <div className="row">
                 <div className="col-md-6 mb-4">
-                  <h6>Niveles</h6>
-                  <p className="mb-1 small">
-                    Al subir de nivel, obtienes más privilegios dentro del gremio.
-                  </p>
-                  <a
-                    className="small text-arrow-icon"
-                    href="/curso/programacion-desde-cero"
-                  >
-                    Saber más <Icon name="arrow-right" className="ml-2" />
-                  </a>
-                </div>
-                <div className="col-md-6 mb-4">
-                  <h6>Anillo</h6>
+                  <h6>Privilegios</h6>
                   <p className="small mb-1">
-                    Se obtiene al superar todos los desafíos y alcanzando el nivel máximo.
+                    Tendrás acceso a mas contenido, mejores oportunidades laborales y mayor influencia en el gremio.
                   </p>
                   <a
                     className="small text-arrow-icon"

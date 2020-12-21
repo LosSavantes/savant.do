@@ -43,14 +43,15 @@ export default function Nav(props) {
                 <Icon name="chevron-right" className="dropdown-arrow" />
               </a>
               <div className="dropdown-menu dropdown-menu-right mr-lg-n20 mr-xl-n15 animated--fade-in-up">
-                <Link href="/curso/programacion-desde-cero">
-                  <a className="dropdown-item py-3">
-                    <div className="icon-stack bg-primary-soft text-primary mr-4">
-                      <i data-feather="book-open"></i>
-                    </div>
-                    <div>Programación Desde Cero</div>
-                  </a>
-                </Link>
+                <a
+                  className="dropdown-item py-3"
+                  href="/curso/programacion-desde-cero"
+                >
+                  <div className="icon-stack bg-primary-soft text-primary mr-4">
+                    <Icon name="code" />
+                  </div>
+                  <div>Programación Desde Cero</div>
+                </a>
                 {/* <div className="dropdown-divider m-0"></div> */}
               </div>
             </li>

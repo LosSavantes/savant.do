@@ -9,7 +9,7 @@ export default function index() {
       />
 
       <section className="bg-white py-10">
-        <div className="container">
+        <div className="container px-4">
           <div className="row justify-content-center">
             <div className="col-lg-4">
               <h2>Procedimiento</h2>
@@ -20,8 +20,8 @@ export default function index() {
                   acceder al curso.
                 </li>
                 <li>
-                  Antes de la segunda clase, deberás de realizar el pago a
-                  una de las cuentas indicadas debajo, 
+                  Tendrás hasta la segunda clase, para realizar el pago a
+                  una de las cuentas indicadas abajo.
                 </li>
                 <li>
                   Envía tu recibo de pago a{" "}
@@ -41,9 +41,9 @@ export default function index() {
                 </li>
               </ul>
             </div>
-            <div className="col-lg-8">
+            <div className="col-lg-8 p-0 p-lg-auto">
               <iframe
-                src="https://docs.google.com/forms/d/e/1FAIpQLSf-_J7fVT7BW6je0ZeI3PkovB-m9tDNw6QZNl55PLwVNaUAaw/viewform?embedded=true"
+                src="https://docs.google.com/forms/d/e/1FAIpQLScLYcdwsmAFgx0ctff6E43ZDgxXhVM4LH-eEww2yl4AAV2KpQ/viewform?embedded=true"
                 width="640"
                 height="900"
                 frameBorder="0"
@@ -64,7 +64,7 @@ export default function index() {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 144.54 17.34"
             preserveAspectRatio="none"
-            fill="var(--light)"
+            fill="var(--dark)"
           >
             <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
           </svg>

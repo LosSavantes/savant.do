@@ -1,0 +1,11 @@
+.track {
+	--gap: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: var(--gap);
+	row-gap: calc(var(--gap) / 3.5);
+
+	&.vertical {
+		flex-direction: column;
+	}
+}

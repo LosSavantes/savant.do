@@ -4,8 +4,8 @@ export default function index(props) {
 	return (
     <>
       <Header title="Sobre Nosotros" paragraph="TODO" />
-      <div className="container">
-        <section className="py-10">
+      <section className="py-10">
+        <div className="container">
           <div className="row align-items-center pb-10">
             <div className="col-lg-6 text-center">
               <img
@@ -30,8 +30,18 @@ export default function index(props) {
               <p className="lead">Desarrollador Full-Stack</p>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+        <div className="svg-border-rounded text-dark">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 144.54 17.34"
+            preserveAspectRatio="none"
+            fill="var(--dark)"
+          >
+            <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
+          </svg>
+        </div>
+      </section>
     </>
   );
 };
