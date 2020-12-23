@@ -31,7 +31,7 @@ export default function index(props) {
 
               <h2 className="mb-4">¿Quiénes somos?</h2>
               <p>
-                Nuestra <em>visión</em> de llevar conocimiento tecnológico y
+                Nuestra <em>visión</em> es llevar conocimiento tecnológico y
                 crear oportunidades lucrativas a todo aquel que desee obtener
                 conocimiento.
               </p>
