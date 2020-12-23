@@ -31,7 +31,7 @@ export default function index() {
             </div>
             <div className="col-lg-8 p-0 p-lg-auto">
               <iframe
-                src="https://docs.google.com/forms/d/e/1FAIpQLScLYcdwsmAFgx0ctff6E43ZDgxXhVM4LH-eEww2yl4AAV2KpQ/viewform?embedded=true"
+                src="https://docs.google.com/forms/d/e/1FAIpQLSforlfvpHXtCfhtTNhHHiH5Wp4RcoaUfQl2Tupy8GRM7rgKDQ/viewform?embedded=true"
                 width="640"
                 height="900"
                 frameBorder="0"

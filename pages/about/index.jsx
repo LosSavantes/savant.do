@@ -32,8 +32,8 @@ export default function index(props) {
               <h2 className="mb-4">¿Quiénes somos?</h2>
               <p>
                 Nuestra <em>visión</em> es llevar conocimiento tecnológico y
-                crear oportunidades lucrativas a todo aquel que desee obtener
-                conocimiento.
+                crear oportunidades lucrativas a todo aquel que tenga hambre de
+                conocimiento y de superación.
               </p>
               <p>
                 Nuestra <em>misión</em> es crear un gremio compuesto de

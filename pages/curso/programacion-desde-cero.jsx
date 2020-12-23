@@ -38,6 +38,9 @@ export default function ProgramaciónDesdeCero() {
                   Puedes asistir el primer día gratis. Realiza el pago antes de
                   la segunda clase o no podrás entrar.
                 </li>
+                <li className="list-group-item">
+                  <a className="btn btn-block btn-success" href="/inscripcion">Inscribirme</a>
+                </li>
               </ul>
             </div>
             <div className="col-lg-9">
@@ -67,7 +70,7 @@ export default function ProgramaciónDesdeCero() {
                   <div className="icon-stack bg-primary text-white mr-2">
                     <Icon name="arrow-right" />
                   </div>
-                  Contenido del curso
+                  Contenido
                 </h2>
                 <p>
                   En este curso aprenderás los fundamentos del desarrollo de
