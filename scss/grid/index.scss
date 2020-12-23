@@ -1,0 +1,49 @@
+@use '../utils/breakpoints' as *;
+
+@mixin grid-subclasses($prefix: "") {
+  @for $i from 1 to 13 {
+    &.#{$prefix}x#{$i} {
+      --c: #{$i};
+    }
+
+    > {
+      .#{$prefix}c#{$i} {
+        --c: #{$i};
+      }
+      .#{$prefix}s#{$i} {
+        --s: #{$i};
+      }
+    }
+  }
+}
+.grid {
+  --c: auto; 
+  --w: 1fr;
+  --jc: normal;
+  display: grid;
+  column-gap: 1rem;
+  grid-template-columns: repeat(var(--c), var(--w));
+  justify-content: var(--jc);
+
+  &.centered {
+    --jc: center;
+  }
+
+  > * {
+    --c: auto;
+    --r: auto;
+    --s: 1;
+    grid-column: var(--c) / span var(--s);
+    grid-row: var(--r) / span 1;
+  }
+
+	@include grid-subclasses();
+	
+	@include breakpoints() using ($name) {
+    @include grid-subclasses(#{$name}-);
+
+    &.#{$name}-centered {
+      --jc: center;
+    }
+	}
+}

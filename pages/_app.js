@@ -1,7 +1,7 @@
 import Head from "next/head"
 import Nav from "parts/Nav";
 import Footer from "parts/Footer";
-import "styles/scss/elegant.scss";
+import "scss/elegant.scss";
 
 function MyApp({ Component, pageProps }) {
   const { navBackground = 0 } = pageProps;
@@ -12,7 +12,10 @@ function MyApp({ Component, pageProps }) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <title>{process.env.NEXT_PUBLIC_NAME}</title>
+        <title>
+          {process.env.NEXT_PUBLIC_SITE_DESCRIPTION} |{" "}
+          {process.env.NEXT_PUBLIC_NAME}
+        </title>
         <meta
           name="description"
           content={process.env.NEXT_PUBLIC_SITE_DESCRIPTION}

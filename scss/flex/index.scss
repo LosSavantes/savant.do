@@ -1,0 +1,24 @@
+@use "../utils/breakpoints" as *;
+
+.track {
+	--gap: 1rem;
+	--d: row;
+  display: flex;
+  flex-wrap: wrap;
+	column-gap: var(--gap);
+	flex-direction: var(--d);
+
+  &.vertical {
+    flex-direction: column;
+    row-gap: var(--gap);
+	}
+	
+	@include breakpoints using ($name) {
+		&.#{$name}-vertical {
+			--d: column;
+		}
+		&.#{$name}-horizontal {
+			--d: row;
+		}
+	}
+}

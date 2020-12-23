@@ -2,10 +2,14 @@ import React from "react";
 import Header from "parts/Header";
 import Icon from "parts/Icon";
 import Heading from "./_Heading";
+import Head from "next/head";
 
 export default function ProgramaciónDesdeCero() {
   return (
     <>
+      <Head>
+        <title>Curso de programación desde cero</title>
+      </Head>
       <Header
         title="Curso De Programación Desde Cero"
         paragraph="Aprende el lenguaje JavaScript, el mas versátil del mundo"
@@ -31,8 +35,8 @@ export default function ProgramaciónDesdeCero() {
                   <b>Precio:</b> <span>RD$ 2,500 / mes</span>
                 </li>
                 <li className="text-info font-weight-bold  list-group-item align-items-start">
-                  Puedes asistir el primer día gratis. Realiza el pago
-                  antes de la segunda clase o no podrás entrar.
+                  Puedes asistir el primer día gratis. Realiza el pago antes de
+                  la segunda clase o no podrás entrar.
                 </li>
               </ul>
             </div>
@@ -81,11 +85,6 @@ export default function ProgramaciónDesdeCero() {
                     <b>Parte I</b>: Los fundamentos
                   </summary>
                   <div className="small">
-                    <p>
-                      En este nivel aprenderás los fundamentos de programación,
-                      que te servirán de base para dominar los próximos niveles
-                      y la programación en general.
-                    </p>
                     <ul className="">
                       <li>Tipos de datos y variables</li>
                       <li>Expresiones</li>
@@ -102,11 +101,6 @@ export default function ProgramaciónDesdeCero() {
                     <b>Parte II</b>: Técnicas avanzadas
                   </summary>
                   <div className="small">
-                    <p>
-                      Aquí aprenderemos técnicas y metodologías avanzadas de
-                      programación que usan los desarrolladores profesionales en
-                      el mundo real.
-                    </p>
                     <ul>
                       <li>Expresiones regulares (Regex)</li>
                       <li>Recursión</li>
@@ -126,17 +120,11 @@ export default function ProgramaciónDesdeCero() {
                   </summary>
                   <div className="small">
                     <p>
-                      En esta última parte aprenderás a crear aplicaciones y
-                      paginas web. Utilizaras las técnicas ya aprendidas en los
-                      niveles pasados + los procesos y herramientas que utilizan
-                      desarrolladores profesionales en el mundo real.
+                      Aprenderás a crear una aplicación web desde cero junto con
+                      todos tus compañeros. Utilizarás todos los conocimientos
+                      cubiertos hasta este punto para lograr la creación
+                      completa de un proyecto.
                     </p>
-                    <ul>
-                      <li>React.js (para crear interfaces gráficas)</li>
-                      <li>Node.js (para crear servidores en JavaScript)</li>
-                      <li>Bases de datos</li>
-                      <li>Seguridad de aplicaciones</li>
-                    </ul>
                   </div>
                 </details>
               </section>

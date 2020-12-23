@@ -1,0 +1,15 @@
+$grid-breakpoints: (
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+@mixin breakpoints {
+  @each $name, $width in $grid-breakpoints {
+    @media (min-width: #{$width}) {
+			@content($name);
+    }
+  }
+}

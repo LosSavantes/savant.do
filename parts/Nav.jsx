@@ -12,11 +12,9 @@ export default function Nav(props) {
       } navbar-dark fixed-top`}
     >
       <div className="container">
-        <Link href="/">
-          <a className="navbar-brand text-white">
-            {process.env.NEXT_PUBLIC_NAME}
-          </a>
-        </Link>
+        <a href="/" className="navbar-brand text-white">
+          {process.env.NEXT_PUBLIC_NAME}
+        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -56,21 +54,22 @@ export default function Nav(props) {
               </div>
             </li>
             <li className="nav-item">
-              <Link href="/about">
-                <a className="nav-link">Nosotros</a>
-              </Link>
+              <a className="nav-link" href="/about">
+                Nosotros
+              </a>
             </li>
             <li className="nav-item">
-              <Link href="/contact">
-                <a className="nav-link">Contacto</a>
-              </Link>
+              <a className="nav-link" href="/contact">
+                Contacto
+              </a>
             </li>
           </ul>
-          <Link href="/inscripcion">
-            <a className="btn font-weight-500 ml-lg-4 btn-teal">
-              Inscribirse <Icon name="arrow-right" size={14} className="ml-2" />
-            </a>
-          </Link>
+          <a
+            href="/inscripcion"
+            className="btn font-weight-500 ml-lg-4 btn-teal"
+          >
+            Inscribirse <Icon name="arrow-right" size={14} className="ml-2" />
+          </a>
         </div>
       </div>
     </nav>

@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Header from "parts/Header";
 import { useMemo } from "react";
 
@@ -10,6 +11,9 @@ export default function index() {
 
 	return (
     <>
+      <Head>
+        <title>Contacto</title>
+      </Head>
       <Header
         title="Contacto"
         paragraph="Aquí estamos para responder todas tus preguntas"

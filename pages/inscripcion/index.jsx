@@ -1,8 +1,12 @@
+import Head from "next/head";
 import Header from "parts/Header";
 
 export default function index() {
 	return (
     <>
+    <Head>
+      <title>Inscripción</title>
+    </Head>
       <Header
         title="Inscripción"
         paragraph="Sigue los pasos para inscribirte en uno de nuestros cursos."
