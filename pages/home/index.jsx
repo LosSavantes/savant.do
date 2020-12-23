@@ -1,5 +1,5 @@
 import Header from 'pages/inscripcion/_Header'
-import Icon from 'parts/Icon';
+import Icon from 'library/Icon';
 
 export default function Home() {
   return (

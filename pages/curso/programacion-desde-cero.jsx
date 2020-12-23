@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "parts/Header";
-import Icon from "parts/Icon";
+import Header from "library/Header";
+import Icon from "library/Icon";
 import Heading from "./_Heading";
 import Head from "next/head";
 

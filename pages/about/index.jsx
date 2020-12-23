@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Header from "parts/Header";
-import Icon from "parts/Icon";
+import Header from "library/Header";
+import Icon from "library/Icon";
 
 export default function index(props) {
 	return (

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Header from "parts/Header";
+import Header from "library/Header";
 import { useMemo } from "react";
 
 export default function index() {

@@ -1,4 +1,4 @@
-import Icon from "parts/Icon";
+import Icon from "library/Icon";
 
 export default function Header() {
   return (

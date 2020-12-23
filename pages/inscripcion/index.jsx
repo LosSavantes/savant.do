@@ -1,12 +1,12 @@
 import Head from "next/head";
-import Header from "parts/Header";
+import Header from "library/Header";
 
 export default function index() {
 	return (
     <>
-    <Head>
-      <title>Inscripción</title>
-    </Head>
+      <Head>
+        <title>Inscripción</title>
+      </Head>
       <Header
         title="Inscripción"
         paragraph="Sigue los pasos para inscribirte en uno de nuestros cursos."
@@ -16,34 +16,18 @@ export default function index() {
         <div className="container px-4">
           <div className="row justify-content-center">
             <div className="col-lg-4">
-              <h2>Procedimiento</h2>
-              <ol className="small mb-5" style={{ paddingLeft: "1rem" }}>
+              <h2 className="mb-4">Procedimiento</h2>
+              <ol className="mb-5" style={{ paddingLeft: "1rem" }}>
                 <li>Llena y envía el formulario de inscripción.</li>
                 <li>
                   Dentro de 24 horas recibirás un correo con instrucciones para
-                  acceder al curso.
+                  acceder al curso y realizar el pago.
                 </li>
                 <li>
-                  Tendrás hasta la segunda clase, para realizar el pago a
-                  una de las cuentas indicadas abajo.
-                </li>
-                <li>
-                  Envía tu recibo de pago a{" "}
-                  {process.env.NEXT_PUBLIC_PAYMENTS_EMAIL}
+                  Antes de la segunda clase, debes realizar el pago del primer
+                  mes.
                 </li>
               </ol>
-              <h3>Cuentas</h3>
-              <p className="lead">
-                Para hacer el pago puedes usar una de estas dos vías.
-              </p>
-              <ul>
-                <li>
-                  <b>Banco Popular</b>: {process.env.NEXT_PUBLIC_BANK_ACCOUNT} <br/>(Jean Alexander Perez Reinoso)
-                </li>
-                <li>
-                  <b>PayPal</b>: {process.env.NEXT_PUBLIC_PAYMENTS_EMAIL}
-                </li>
-              </ul>
             </div>
             <div className="col-lg-8 p-0 p-lg-auto">
               <iframe

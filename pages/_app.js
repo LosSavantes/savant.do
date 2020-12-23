@@ -1,6 +1,6 @@
 import Head from "next/head"
-import Nav from "parts/Nav";
-import Footer from "parts/Footer";
+import Nav from "library/Nav";
+import Footer from "library/Footer";
 import "scss/elegant.scss";
 
 function MyApp({ Component, pageProps }) {

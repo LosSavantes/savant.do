@@ -1,4 +1,4 @@
-import Icon from "parts/Icon";
+import Icon from "library/Icon";
 import { Children } from "react";
 
 export default function Heading(props) {
