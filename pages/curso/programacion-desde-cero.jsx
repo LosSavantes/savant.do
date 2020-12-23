@@ -130,6 +130,7 @@ export default function ProgramaciónDesdeCero() {
               </section>
 
               <hr className="my-5" />
+
               <section>
                 <Heading>Metodología</Heading>
                 <p>
@@ -156,9 +157,9 @@ export default function ProgramaciónDesdeCero() {
                   El Gremio
                 </h4>
                 <p>
-                  Esta es nuestra comunidad solo disponible para quienes se
-                  inscriban en el curso. Esta membresía es permanente y no tiene
-                  costo.
+                  Al inscribirte en el curso obtendras una membresia permanente
+                  a nuestra comunidad exclusiva, donde tendras acceso a
+                  beneficios extra. Esta comunidad se le llama El Gremio.
                 </p>
                 <p>Entre los beneficios que ofrece el gremio se destacan:</p>
                 <ul>
