@@ -8,17 +8,17 @@ export default function Header() {
           <div className="row align-items-center">
             <div className="col-lg-6" data-aos="fade-up">
               <h1 className="page-header-title">
-                ¡Gana dinero haciendo aplicaciones y páginas web!
+                ¿Quieres aprender a programar aplicaciones y páginas web?
               </h1>
               <p className="page-header-text mb-4">
-                Necesitas un curso que va directo al punto, a lo que realmente necesitas aprender.
-                (La primera clase gratis)
+                Necesitas un curso que va directo al punto, a lo que realmente
+                necesitas aprender. (La primera clase gratis)
               </p>
               <a
                 className="btn btn-teal font-weight-500 mr-2"
                 href="/curso/programacion-desde-cero"
               >
-                Ver curso <Icon name="arrow-right" size={14} className="ml-2" /> 
+                Ver curso <Icon name="arrow-right" size={14} className="ml-2" />
               </a>
             </div>
             <div
