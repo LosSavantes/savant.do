@@ -1,9 +1,13 @@
 import Header from 'pages/inscripcion/_Header'
 import Icon from 'library/Icon';
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>¿Quieres aprender a programar y ganar dinero?</title>
+      </Head>
       <Header />
       <section className="bg-light py-10">
         <div className="container">
