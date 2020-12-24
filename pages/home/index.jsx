@@ -1,4 +1,4 @@
-import Header from 'pages/inscripcion/_Header'
+import Header from 'pages/home/_Header'
 import Icon from 'library/Icon';
 import Head from 'next/head';
 
@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>¿Quieres aprender a programar y ganar dinero?</title>
+        <title>¡Gana dinero, aprende a desarrollar aplicaciones!</title>
       </Head>
       <Header />
       <section className="bg-light py-10">
@@ -82,7 +82,8 @@ export default function Home() {
               </div>
               <h3>En vivo</h3>
               <p className="mb-0">
-                Podrás hacer preguntas en el momento, y tendrás la clase grabada al final
+                Podrás hacer preguntas en el momento, y tendrás la clase grabada
+                al final
               </p>
             </div>
             <div className="col-lg-4">
@@ -137,6 +138,19 @@ export default function Home() {
               </div>
               <div className="row">
                 <div className="col-md-6 mb-4">
+                  <h6>Ofertas laborales</h6>
+                  <p className="small mb-1">
+                    Al inscribirte recibirás ofertas laborales publicadas en
+                    nuestra comunidad.
+                  </p>
+                  <a
+                    className="small text-arrow-icon"
+                    href="/curso/programacion-desde-cero"
+                  >
+                    Saber más <Icon name="arrow-right" className="ml-2" />
+                  </a>
+                </div>
+                <div className="col-md-6 mb-4">
                   <h6>Gremio</h6>
                   <p className="mb-1 small">
                     Únete a nuestra comunidad y recibe contenido exclusivo.
@@ -148,11 +162,12 @@ export default function Home() {
                     Saber más <Icon name="arrow-right" className="ml-2" />
                   </a>
                 </div>
+              </div>
+              <div className="row">
                 <div className="col-md-6 mb-4">
-                  <h6>Desafíos &amp; Niveles</h6>
-                  <p className="mb-1 small ">
-                    Supera nuestros desafíos y sube de nivel para obtener
-                    privilegios dentro del gremio.
+                  <h6>Concursos</h6>
+                  <p className="small mb-1">
+                    En nuestra comunidad podrás participar en concursos y ganar premios.
                   </p>
                   <a
                     className="small text-arrow-icon"
@@ -161,12 +176,11 @@ export default function Home() {
                     Saber más <Icon name="arrow-right" className="ml-2" />
                   </a>
                 </div>
-              </div>
-              <div className="row">
                 <div className="col-md-6 mb-4">
-                  <h6>Privilegios</h6>
-                  <p className="small mb-1">
-                    Tendrás acceso a mas contenido, mejores oportunidades laborales y mayor influencia en el gremio.
+                  <h6>Desafíos &amp; Niveles</h6>
+                  <p className="mb-1 small ">
+                    Supera nuestros desafíos, sube de nivel para obtener
+                    tu anillo de honor.
                   </p>
                   <a
                     className="small text-arrow-icon"

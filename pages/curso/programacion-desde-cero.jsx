@@ -173,6 +173,7 @@ export default function ProgramaciónDesdeCero() {
                   <li>Información sobre posiciones laborales abiertas.</li>
                   <li>Noticias relacionadas con software y tecnología.</li>
                   <li>Tutoriales complementarios gratuitos.</li>
+                  <li>Rifas y concursos</li>
                 </ul>
 
                 <h5 className="pt-3">Desafíos y Niveles</h5>
@@ -186,7 +187,6 @@ export default function ProgramaciónDesdeCero() {
                   <li>Tutoriales exclusivos, sin costo</li>
                   <li>Comisiones oficiales asignadas por Savantes</li>
                   <li>Descuentos en otros cursos</li>
-                  <li>Regalos aleatorios</li>
                 </ul>
 
                 <h5 className="pt-3">Anillo de Honor</h5>
