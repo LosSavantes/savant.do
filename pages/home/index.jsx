@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>¡Gana dinero, aprende a desarrollar aplicaciones!</title>
+        <title>¡Aprende a desarrollar aplicaciones y páginas web!</title>
       </Head>
       <Header />
       <section className="bg-light py-10">
