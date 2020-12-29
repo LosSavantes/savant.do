@@ -28,7 +28,7 @@ export default function Nav(props) {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto mr-lg-5">
-            <li className="nav-item dropdown dropdown-sm no-caret">
+            {/* <li className="nav-item dropdown dropdown-sm no-caret">
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -50,8 +50,13 @@ export default function Nav(props) {
                   </div>
                   <div>Programación Desde Cero</div>
                 </a>
-                {/* <div className="dropdown-divider m-0"></div> */}
+                <div className="dropdown-divider m-0"></div> 
               </div>
+            </li> */}
+            <li className="nav-item">
+              <a className="nav-link" href="/curso/programacion-desde-cero">
+                Curso
+              </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/about">
@@ -65,7 +70,7 @@ export default function Nav(props) {
             </li>
           </ul>
           <a
-            href="/inscripcion"
+            href="/curso/programacion-desde-cero#form"
             className="btn font-weight-500 ml-lg-4 btn-teal"
           >
             Inscribirse <Icon name="arrow-right" size={14} className="ml-2" />

@@ -11,8 +11,8 @@ export default function Header() {
                 ¿Quieres aprender a programar aplicaciones y páginas web?
               </h1>
               <p className="page-header-text mb-4">
-                Necesitas un curso que va directo al punto, a lo que realmente
-                necesitas aprender. (La primera clase gratis)
+                Inscríbete a nuestro curso online y en vivo. <br/>(La
+                primera clase gratis)
               </p>
               <a
                 className="btn btn-teal font-weight-500 mr-2"

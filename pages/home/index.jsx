@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>¡Aprende a desarrollar aplicaciones y páginas web!</title>
+        <title>Curso de programación de aplicaciones y páginas web en vivo, online.</title>
       </Head>
       <Header />
       <section className="bg-light py-10">
@@ -193,7 +193,7 @@ export default function Home() {
             </div>
           </div>
           <div className="text-center mt-5">
-            <a className="btn btn-success font-weight-bold" href="/inscripcion">
+            <a className="btn btn-success font-weight-bold" href="/curso/programacion-desde-cero">
               ¡Inscribirme en el curso!
             </a>
           </div>

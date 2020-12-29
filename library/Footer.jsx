@@ -13,7 +13,7 @@ export default function Footer() {
             {/* <div className="mb-3">Design made easy</div> */}
             <div className="my-3 justify-content-center track">
               <Link href="/curso/programacion-desde-cero">
-                <a className="text-nowrap">Programación Desde Cero</a>
+                <a className="text-nowrap">Curso</a>
               </Link>
               <Link href="/about">
                 <a className="">Nosotros</a>
@@ -21,7 +21,7 @@ export default function Footer() {
               <Link href="/contact">
                 <a className="">Contacto</a>
               </Link>
-              <Link href="/inscripcion">
+              <Link href="/curso/programacion-desde-cero#form">
                 <a>Inscripción</a>
               </Link>
             </div>

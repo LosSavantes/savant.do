@@ -3,21 +3,26 @@ import Header from "library/Header";
 import Icon from "library/Icon";
 import Heading from "./_Heading";
 import Head from "next/head";
+import A from "library/A";
 
 export default function ProgramaciónDesdeCero() {
+  function gotoSignup() {
+    const element = document.getElementById("form");
+    element.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
   return (
     <>
       <Head>
-        <title>Curso de programación desde cero</title>
+        <title>Curso de programación desde cero, online, en vivo</title>
       </Head>
       <Header
-        title="Curso De Programación Desde Cero"
+        title="Programación Desde Cero (Curso técnico)"
         paragraph="Aprende el lenguaje JavaScript, el mas versátil del mundo"
       />
       <section className="bg-white py-10">
-        <div className="container">
-          <div className="row ">
-            <div className="col-lg-3">
+        <div className="container px-4">
+          <div className="md-x3 grid" style={{columnGap:'3rem'}}>
+            <div className="">
               <ul className="list-group list-group-flush list-group-careers">
                 <li className="list-group-item">
                   <b>Duración:</b> 4 meses
@@ -34,16 +39,37 @@ export default function ProgramaciónDesdeCero() {
                 <li className="list-group-item">
                   <b>Precio:</b> <span>RD$ 2,500 / mes</span>
                 </li>
+                <li className="list-group-item">
+                  <b>Inversion:</b> <span>RD$ 10,000</span>
+                </li>
                 <li className="text-info font-weight-bold  list-group-item align-items-start">
                   Puedes asistir el primer día gratis. Realiza el pago antes de
                   la segunda clase o no podrás entrar.
                 </li>
                 <li className="list-group-item">
-                  <a className="btn btn-block btn-success" href="/inscripcion">Inscribirme</a>
+                  <p>
+                    Realiza el pago a nuestra cuenta en el{' '}
+                    <b>
+                      Banco Popular No.: {process.env.NEXT_PUBLIC_BANK_ACCOUNT}
+                    </b>{" "}
+                    (Alexander Reinoso) <br />
+                    <br/>
+                    Envia el comprobante a{" "}
+                    <A href="pagos@savant.do" prefix="mailto:" />
+                  </p>
+                </li>
+                <li className="list-group-item">
+                  <button
+                    onClick={gotoSignup}
+                    className="btn btn-block btn-success"
+                    href="/inscripcion"
+                  >
+                    Inscribirme
+                  </button>
                 </li>
               </ul>
             </div>
-            <div className="col-lg-9">
+            <div className="md-s2">
               <section>
                 <h2 className="mb-4">
                   <div className="icon-stack bg-primary text-white mr-2">
@@ -196,13 +222,21 @@ export default function ProgramaciónDesdeCero() {
                   cortesía de la casa y se hará a tu medida.
                 </p>
 
-                <div className="py-5">
-                  <a
-                    className="btn btn-block btn-success font-weight-bold"
-                    href="/inscripcion"
+                <div id="form" style={{ paddingTop: 96 }}>
+                  <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSforlfvpHXtCfhtTNhHHiH5Wp4RcoaUfQl2Tupy8GRM7rgKDQ/viewform?embedded=true"
+                    width="640"
+                    height="900"
+                    frameBorder="0"
+                    marginHeight="0"
+                    marginWidth="0"
+                    scrolling="no"
+                    style={{
+                      width: "100%",
+                    }}
                   >
-                    Inscribirme en este curso
-                  </a>
+                    Cargando...
+                  </iframe>
                 </div>
               </section>
             </div>

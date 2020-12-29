@@ -45,16 +45,17 @@ export default function index(props) {
 
               <hr className="my-5" />
 
-              <section className="pt-4 centered grid">
-                <div className="card card-team" style={{
-                  // width:  "50%",
-                  // margin: 'auto'
-                }}>
+              <section
+                className="pt-4 centered md-x2 lg-x3 grid"
+                style={{ "column-gap": "2rem" }}
+              >
+                <div className="card card-team mb-3">
                   <div className="card-body">
                     <img
                       className="card-team-img mb-3"
-                      src="assets/img/illustrations/profiles/profile-5.png"
+                      src="assets/img/photos/alex.jpg"
                       alt="..."
+                      style={{ objectFit: "cover" }}
                     />
                     <div className="card-team-name">Alex Rain</div>
                     <div className="card-team-position mb-3">Fundador</div>
@@ -73,6 +74,41 @@ export default function index(props) {
                     <a
                       className="btn btn-icon btn-transparent-dark mx-1"
                       href="//instagram.com/nextsavant"
+                      target="_blank"
+                    >
+                      <Icon name="instagram" />
+                    </a>
+                  </div>
+                </div>
+                {/* /card-team */}
+                <div className="card card-team mb-3">
+                  <div className="card-body">
+                    <img
+                      className="card-team-img mb-3"
+                      src="assets/img/photos/johan.jpg"
+                      alt="..."
+                      style={{ objectFit: "cover" }}
+                    />
+                    <div className="card-team-name">Johan Pimentel</div>
+                    <div className="card-team-position mb-3">Co-fundador</div>
+                    <p className="small mb-0">
+                      Fullstack Web & mobile developer HTML, CSS, JavaScript,
+                      NodeJs, React Java, Java EE, JSF, Spring boot Dart,
+                      Flutter Firebase, SQL, NoSQL, DB Modeling & Design
+                      Restfull APIs
+                    </p>
+                  </div>
+                  <div className="card-footer text-center">
+                    <a
+                      className="btn btn-icon btn-transparent-dark mx-1"
+                      href="//github.com/zoomstereo"
+                      target="_blank"
+                    >
+                      <Icon name="github" />
+                    </a>
+                    <a
+                      className="btn btn-icon btn-transparent-dark mx-1"
+                      href="//instagram.com/"
                       target="_blank"
                     >
                       <Icon name="instagram" />
