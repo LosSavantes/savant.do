@@ -47,8 +47,7 @@ export default function ProgramaciónDesdeCero() {
                   <b>Inversion:</b> <span>RD$ 10,000</span>
                 </li>
                 <li className="text-info font-weight-bold  list-group-item align-items-start">
-                  Puedes asistir el primer día gratis. Realiza el pago antes de
-                  la segunda clase o no podrás entrar.
+                  Puedes asistir el primer día gratis.
                 </li>
                 <li className="list-group-item">
                   <p>
