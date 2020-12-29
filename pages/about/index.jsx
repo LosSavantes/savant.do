@@ -108,7 +108,7 @@ export default function index(props) {
                     </a>
                     <a
                       className="btn btn-icon btn-transparent-dark mx-1"
-                      href="//instagram.com/"
+                      href="//instagram.com/johanpimentelm"
                       target="_blank"
                     >
                       <Icon name="instagram" />
