@@ -16,12 +16,16 @@ export default function ProgramaciónDesdeCero() {
         <title>Curso de programación desde cero, online, en vivo</title>
       </Head>
       <Header
-        title="Programación Desde Cero (Curso técnico)"
+        title={
+          <>
+            Programación Desde Cero <br /> (Curso técnico)
+          </>
+        }
         paragraph="Aprende el lenguaje JavaScript, el mas versátil del mundo"
       />
       <section className="bg-white py-10">
         <div className="container px-4">
-          <div className="md-x3 grid" style={{columnGap:'3rem'}}>
+          <div className="md-x3 grid" style={{ columnGap: "3rem" }}>
             <div className="">
               <ul className="list-group list-group-flush list-group-careers">
                 <li className="list-group-item">
@@ -48,12 +52,12 @@ export default function ProgramaciónDesdeCero() {
                 </li>
                 <li className="list-group-item">
                   <p>
-                    Realiza el pago a nuestra cuenta en el{' '}
+                    Realiza el pago a nuestra cuenta en el{" "}
                     <b>
                       Banco Popular No.: {process.env.NEXT_PUBLIC_BANK_ACCOUNT}
                     </b>{" "}
                     (Alexander Reinoso) <br />
-                    <br/>
+                    <br />
                     Envia el comprobante a{" "}
                     <A href="pagos@savant.do" prefix="mailto:" />
                   </p>
