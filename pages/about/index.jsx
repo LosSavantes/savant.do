@@ -47,7 +47,7 @@ export default function index(props) {
 
               <section
                 className="pt-4 centered md-x2 grid"
-                style={{ "column-gap": "2rem" }}
+                style={{ columnGap: "2rem" }}
               >
                 <div className="card card-team mb-3">
                   <div className="card-body">
