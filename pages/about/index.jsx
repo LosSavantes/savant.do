@@ -46,7 +46,7 @@ export default function index(props) {
               <hr className="my-5" />
 
               <section
-                className="pt-4 centered md-x2 lg-x3 grid"
+                className="pt-4 centered md-x2 grid"
                 style={{ "column-gap": "2rem" }}
               >
                 <div className="card card-team mb-3">
