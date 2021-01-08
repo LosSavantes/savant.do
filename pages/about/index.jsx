@@ -16,16 +16,15 @@ export default function index(props) {
               <p className="">
                 <strong className="h4">savant</strong>
                 <br />
-                /ˈsav(ə)nt,French savɑ̃/
+                Inglés /ˈsav(ə)nt, Francés savɑ̃/
               </p>
-              <em> noun </em>
+              <em> sujeto </em>
               <ol className="small mb-5">
-                <li
-                  title="Traducción: una persona instruida, especialmente un científico
-                  distinguido."
-                  style={{ cursor: "help" }}
-                >
-                  <u>a learned person, especially a distinguished scientist</u>
+                <li>
+                  <u>
+                    una persona instruida, especialmente un científico
+                    distinguido.
+                  </u>
                 </li>
               </ol>
 

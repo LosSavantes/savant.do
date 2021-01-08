@@ -27,7 +27,16 @@ export default function ProgramaciónDesdeCero() {
         <div className="container px-4">
           <div className="md-x3 grid" style={{ columnGap: "3rem" }}>
             <div className="">
-              <ul className="list-group list-group-flush list-group-careers">
+              <ul
+                className="list-group list-group-flush list-group-careers"
+                style={{
+                  position: "sticky",
+                  top: 96,
+                }}
+              >
+                <li className="text-secondary font-weight-bolder  list-group-item align-items-start">
+                  <p className="py-3 m-0">La primera clase es gratis.</p>
+                </li>
                 <li className="list-group-item">
                   <b>Duración:</b> 4 meses
                 </li>
@@ -44,20 +53,17 @@ export default function ProgramaciónDesdeCero() {
                   <b>Precio:</b> <span>RD$ 2,500 / mes</span>
                 </li>
                 <li className="list-group-item">
-                  <b>Inversion:</b> <span>RD$ 10,000</span>
-                </li>
-                <li className="text-info font-weight-bold  list-group-item align-items-start">
-                  Puedes asistir el primer día gratis.
+                  <b>Inversión:</b> <span>RD$ 10,000</span>
                 </li>
                 <li className="list-group-item">
-                  <p>
+                  <p className="m-0">
                     Realiza el pago a nuestra cuenta en el{" "}
                     <b>
                       Banco Popular No.: {process.env.NEXT_PUBLIC_BANK_ACCOUNT}
                     </b>{" "}
                     (Alexander Reinoso) <br />
                     <br />
-                    Envia el comprobante a{" "}
+                    Envía el comprobante a{" "}
                     <A href="pagos@savant.do" prefix="mailto:" />
                   </p>
                 </li>
@@ -81,8 +87,8 @@ export default function ProgramaciónDesdeCero() {
                   Requerimientos
                 </h2>
                 <p>
-                  Ninguno, este curso esta hecho para principiantes sin ningun
-                  conocimiento previo de programacion.
+                  Ninguno, este curso esta hecho para principiantes sin ningún
+                  conocimiento previo de programación.
                 </p>
                 {/* <p>
                 Irás aprendiendo mediante ejercicios progresivos en el mismo día
@@ -166,13 +172,13 @@ export default function ProgramaciónDesdeCero() {
               <section>
                 <Heading>Metodología</Heading>
                 <p>
-                  Después de cada explicación, realizaras una practica simple
-                  con los conocimientos que ya aprendiste. Las practicas son
+                  Después de cada explicación, realizaras una práctica simple
+                  con los conocimientos que ya aprendiste. Las prácticas son
                   progresivas, y nunca serán demasiado difíciles ni demasiado
                   fáciles, y tampoco aburridas.
                 </p>
                 <p>
-                  Al final del curso, trabajaras en equipo con el resto de la
+                  Al final del curso, trabajarás en equipo con el resto de la
                   clase, para crear un solo proyecto completo en una simulación
                   realista, lo que te enseñara como trabajan los equipos en la
                   vida real para desarrollar software.
@@ -189,8 +195,8 @@ export default function ProgramaciónDesdeCero() {
                   El Gremio
                 </h4>
                 <p>
-                  Al inscribirte en el curso obtendras una membresia permanente
-                  a nuestra comunidad exclusiva, donde tendras acceso a
+                  Al inscribirte en el curso obtendrás una membresía permanente
+                  a nuestra comunidad exclusiva, donde tendrás acceso a
                   beneficios extra. Esta comunidad se le llama El Gremio.
                 </p>
                 <p>Entre los beneficios que ofrece el gremio se destacan:</p>
