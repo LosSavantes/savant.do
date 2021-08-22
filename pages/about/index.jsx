@@ -92,20 +92,7 @@ export default function index(props) {
                     <div className="card-team-position mb-3">Co-fundador</div>
                   </div>
                   <div className="card-footer text-center">
-                    <a
-                      className="btn btn-icon btn-transparent-dark mx-1"
-                      href="//github.com/zoomstereo"
-                      target="_blank"
-                    >
-                      <Icon name="github" />
-                    </a>
-                    <a
-                      className="btn btn-icon btn-transparent-dark mx-1"
-                      href="//instagram.com/johanpimentelm"
-                      target="_blank"
-                    >
-                      <Icon name="instagram" />
-                    </a>
+                    
                   </div>
                 </div>
                 {/* /card-team */}
