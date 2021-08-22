@@ -84,18 +84,12 @@ export default function index(props) {
                   <div className="card-body">
                     <img
                       className="card-team-img mb-3"
-                      src="assets/img/photos/johan.jpg"
+                      src="assets/img/photos/moises.jpg"
                       alt="..."
                       style={{ objectFit: "cover" }}
                     />
-                    <div className="card-team-name">Johan Pimentel</div>
+                    <div className="card-team-name">Moises Tiburcio</div>
                     <div className="card-team-position mb-3">Co-fundador</div>
-                    <p className="small mb-0">
-                      Fullstack Web & mobile developer HTML, CSS, JavaScript,
-                      NodeJs, React Java, Java EE, JSF, Spring boot Dart,
-                      Flutter Firebase, SQL, NoSQL, DB Modeling & Design
-                      Restfull APIs
-                    </p>
                   </div>
                   <div className="card-footer text-center">
                     <a
